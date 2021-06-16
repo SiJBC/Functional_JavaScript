@@ -1,0 +1,25 @@
+{
+  "name": "functional_javascript",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "functional programming example in javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiJBC/Functional_JavaScript.git"
+  },
+  "author": "Simon Colman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiJBC/Functional_JavaScript/issues"
+  },
+  "homepage": "https://github.com/SiJBC/Functional_JavaScript#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fast-csv": "^4.3.6",
+    "mz": "^2.7.0"
+  }
+}
