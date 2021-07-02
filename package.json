@@ -5,7 +5,8 @@
   "description": "functional programming example in javascript",
   "main": "app.js",
   "scripts": {
-    "test": "npm start"
+    "build": "node build.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",

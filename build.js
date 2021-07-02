@@ -43,6 +43,9 @@ const readVaccineFile = function readVaccineFile(){
     })
   })
 }
+// returns loops through all the files and creates 3 javascript module
+// takes all file system functions as arguments
+// no return values
 
 Promise.all([readVaccineFile(), readVirusFile(), readCSVFile()]).then(
   values => {
@@ -51,6 +54,9 @@ Promise.all([readVaccineFile(), readVirusFile(), readCSVFile()]).then(
     }
   }
 )
+
+// function for creating javascript file as module
+
 
 function writeFile(value, index){
   let fileName = JSON.stringify(index) 
