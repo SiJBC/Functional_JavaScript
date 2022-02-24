@@ -1,4 +1,5 @@
 // import all local data
+import fs from 'fs'
 import vaccineTxt from "./_0.js"
 import virusTxt from "./_1.js"
 import codonAminoJSON from "./_2.js"
@@ -61,6 +62,7 @@ const optimised = optimise_codons(virus)
 // compare virus and optimised version to vaccine
 const virusComparison = compare(virus, vaccine)
 const optimisedComparison = compare(optimised, vaccine)
+fs.writeFileSync("optimised.txt", JSON.stringify(optimised))
 
 // output the results
 console.log(`virus comparison: ${compare(virus, vaccine)}% identical to vaccine`)
