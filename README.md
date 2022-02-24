@@ -8,7 +8,7 @@ This is based on the reverse engineering the mRNA vaccine in the
 
 This is an example of how to use JavaScript in a functional way for data manipulation as a comparison to Python
 
-to run the program in the:
+to run the program execute the following commands:
 
 * npm install
 * npm run build
